@@ -1,0 +1,197 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #ffffff;
+  height: 100%;
+  padding: 0;
+  margin: 0%;
+}
+
+img {
+  width: 100%;
+}
+
+/*     main page*/
+.main-page {
+  background-image: linear-gradient(135deg, rgba(49, 24, 131, 0.9) 0%, rgba(72, 56, 149, 0.8) 100%), url("images/developer.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.in-the-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.in-the-header h1 {
+  border-top: 3px solid #9770d9;
+  border-bottom: 3px solid #9770d9;
+  color: #ddd;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.in-the-header p {
+  color: #ffffff;
+  font-size: 2.9rem;
+}
+
+.btn-group {
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn-group .btn {
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background: #9770d9;
+  color: #ddd;
+  border: 1px solid #fff;
+  border: none;
+  border-radius: 20px;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.btn-group .btn :hover {
+  background: #fff;
+  color: #9770d9;
+}
+
+#wrapper {
+  display: none;
+  margin-top: 4rem;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#wrapper .avatar {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* cv page*/
+.container {
+  width: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  font-size: 1.2rem;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 5rem;
+  margin: 0;
+  padding: 1rem;
+  word-spacing: 1rem;
+  word-wrap: break-word;
+}
+
+header p {
+  font-size: 1.3rem;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.feature-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0;
+  line-height: 0.5;
+}
+
+.work-list {
+  margin: 0;
+  line-height: 1.6;
+}
+
+#portfolio {
+  display: none;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#portfolio h1 {
+  font-size: 50px;
+  word-break: break-all;
+  text-align: center;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #f1f1f1;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
