@@ -12,6 +12,7 @@ portfolioBtn.addEventListener('click', function(){
         portfolioBtn.innerText = "Close Portfolio";
     } else {
         portfolio.style.display = "none";
+        portfolioBtn.innerText = "View Portfolio";
     }
        
 })
@@ -22,6 +23,7 @@ cvBtn.addEventListener('click', function(){
     cvBtn.innerText = "Close CV";
  } else {
      wrapper.style.display = "none";
+     cvBtn.innerText = "View CV";
  }
     
 })
