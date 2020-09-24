@@ -14,7 +14,7 @@
     padding-right: 8%;
     box-sizing: border-box;
     margin-bottom: 70px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -91,16 +91,16 @@ button {
 }
 
 .card1 {
-    background-image: url(images/bg-1.jpg);
+    background-image: url("images/bg-1.jpg");
 }
 .card2 {
-    background-image: url(images/bg-2.jpg);
+    background-image: url("images/bg-2.jpg");
 }
 .card3 {
-    background-image: url(images/bg-3.jpg);
+    background-image: url("images/bg-3.jpg");
 }
 .card4 {
-    background-image: url(images/bg-4.jpg);
+    background-image: url("images/bg-4.jpg");
 }
 
 .card:hover {
@@ -109,6 +109,8 @@ button {
 
 /*  RESUME STYLES  */
 #myCv {
+  width: 100%;
+  overflow-x: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -116,7 +118,6 @@ button {
   z-index: 30;
 transform: translateX(-100%);
 background: #ddd;
-overflow: hidden;
 transition: transform 0.5s;
 }
 

@@ -10,6 +10,7 @@ home.forEach(element => {
     element.addEventListener('click', () => {
        container.style.transform = "translateX(0)";
        myCv.style.transform = "translateX(100%)";
+       container.style.overflow = "hidden";
     })
 });
 
@@ -17,6 +18,7 @@ viewCv.forEach(element => {
 element.addEventListener('click', () => {
     container.style.transform = "translateX(100%)";
     myCv.style.transform = "translateX(0)";
+    myCv.style.overflow = "hidden";
 })
 });
 
