@@ -1,29 +1,26 @@
-//grab the differnet elements 
-let portfolioBtn = document.getElementById("view-portfolio")
-let cvBtn = document.getElementById("view-cv")
-let wrapper = document.getElementById('wrapper')
-let portfolio = document.getElementById("portfolio")
+// The Needed dom elements
 
-// Event Listeners for the variious elements
+let home = document.querySelectorAll(".home")
+let viewCv = document.querySelectorAll(".viewCv")
+let container = document.querySelector(".container")
+let myCv = document.querySelector("#myCv")
 
-portfolioBtn.addEventListener('click', function(){
-    if  (portfolio.style.display === "none"){
-        portfolio.style.display = "block";
-        portfolioBtn.innerText = "Close Portfolio";
-    } else {
-        portfolio.style.display = "none";
-        portfolioBtn.innerText = "View Portfolio";
-    }
-       
+//what happens when each button is clicked
+home.forEach(element => {
+    element.addEventListener('click', () => {
+       container.style.transform = "translateX(0)";
+       myCv.style.transform = "translateX(100%)";
+    })
+});
+
+viewCv.forEach(element => {
+element.addEventListener('click', () => {
+    container.style.transform = "translateX(100%)";
+    myCv.style.transform = "translateX(0)";
 })
+});
 
-cvBtn.addEventListener('click', function(){
- if  (wrapper.style.display === "none"){
-     wrapper.style.display = "block";
-    cvBtn.innerText = "Close CV";
- } else {
-     wrapper.style.display = "none";
-     cvBtn.innerText = "View CV";
- }
-    
-})
+
+
+
+

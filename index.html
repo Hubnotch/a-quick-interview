@@ -3,258 +3,164 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Website</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Personal Website Project</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
 
-<!---First Impression-->
-<main class="main-page">
-<header class="in-the-header">
-<h1>WELCOME TO MY PORTFOLIO</h1>
-<p>I am a Frontend Developer</p>
-
-<section class="btn-group">
-  <button type="button" class="btn" id="view-cv">View CV</button>
-  <button type="button" class="btn" id="view-portfolio">View Portfolio</button>
-</section>
-</header>
-</main>
-
-
-
-<!---
-
-R E S U M E
-
--->
-    <div id="wrapper">
-     
-        <img src="/images/developer.jpg" alt="Avatar" class="avatar">
-      
-    <header class="container">
-      <h1>UGWUANYI EKENE LOVE</h1>
-      <div class="address">
-        <p>
-          <strong>Address:</strong> 10, Ozor Street, Peace Estate, Phase II,
-          Ojo, Lagos
-        </p>
-        <p><strong>Tel:</strong> 07060748361</p>
-        <p><strong>Email:</strong> love2ekene@gmail.com</p>
+    <!--  LANDING PAGE SECTION  -->
+    <main class="container">
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li><a class="home" href="#">HOME</a></li>
+            <li><a class="viewCv" href="#">CV</a></li>
+          </ul>
+        </nav>
       </div>
-    </header>
-
-    <section class="summary container">
-      <h3>SUMMARY</h3>
-      <p>
-        Meticulous web developer with over 4 months of front end experience and passion for responsive website design and a firm believer in the mobile-first approach.
-      </p>
-    </section>
-
-    <!-- Similar patterns here-->
-
-    <section class="container">
-      <h3>WORK HISTORY</h3>
-      
-    <section class="container">
-            <div class="feature-container">
-        <div class="title">
-          <h4>PASCAL ARENA PLC. Enugu State, Nigeria.</h4>
-          <p><strong>Front end web developer (intern)</strong></p>
-        </div>
-        <p class="date-time"></p>
-        <p>August 2016 – January 2017</p>
-      </div>
-      <div class="work-list">
-        <ul>
-          <li>
-            <p>Develop new user-facing features.</p>
-          </li>
-          <li>
-            <p>Implemented websites, mobile applications, and landing pages from concept through deployment.</p>
-          </li>
-          <li>
-            <p>Optimize application for maximum speed and scalability</p>
-          </li>
-          <li>
-            <p>Collaborated with product team members to implement new feature developments.</p>
-          </li>
-          <li>
-            <p>
-                Collaborate with other team members and stakeholders
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-<!---Relevant skills-->
-<section class="container">
-    <h3>RELEVANT SKILLS</h3>
-    <div class="feature-container">
-      
-    <div class="work-list">
-      <ul>
-        <li>
-          <p>HyperText Markup Language (HTML)</p>
-        </li>
-        <li>
-          <p>Cascading Style Sheets (CSS)</p>
-        </li>
-        <li>
-          <p>JavaScript (JS)</p>
-        </li>
-        <li>
-          <p>Version Control</p>
-        </li>
-        <li>
+      <section class="row">
+        <div class="col">
+          <h1>MY PERSONAL WEBSITE</h1>
           <p>
-            Problem solving
+            Innovative Front End Developer with over 6 months of experience
+            building and maintaining responsive websites. Proficient in HTML,
+            CSS, Javascript and twitter bootstrap. Passionate about usability
+            and possesses working knowledge ofjQuery.
           </p>
-        </li>
-        <li><p>Excellent communication skill</p></li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="summary container">
-    <h3>OTHER INTERESTS</h3>
-    <p>
-        I love reading articles that stimulate thinking. Jogging and free walk is a way I relieve stress and for my general
-        well-being. I enjoy playing football more than watching.
-    </p>
-  </section>
-
-  <section class="container">
-    <h3>LANGUAGE</h3>
-    <div class="feature-container">
-      
-    <div class="work-list">
-      <ul>
-        <li>
-          <p>Igbo</p>
-        </li>
-        <li>
-          <p>English</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-<!----- Education-->
-
-<section class="container">
-    <h3>EDUCATION</h3>
-    <div class="feature-container">
-      <div class="title">
-        <h4>Degree of Bachelor of Engineering (B. Eng)</h4>
+          <button class="viewCv" type="button">Explore CV</button>
+        </div>
+        <div class="col col1">
+          <div class="card card1"></div>
+          <div class="card card2"></div>
+          <div class="card card3"></div>
+          <div class="card card4"></div>
+        </div>
+      </section>
+    </main>
+ 
+    <!--   RESUME SECTION -->
+    <section id="myCv">
+      <div class="navbar">
+        <nav>
+          <ul>
+            <li><a class="home"
+            href="#">HOME</a></li>
+            <li><a class="viewCv" href="#">CV</a></li>
+          </ul>
+        </nav>
       </div>
-      <p class="date-time">2017</p>
-    </div>
-    <div class="work-list">
-      <p>Mechanical and Production Engineering</p>
-      <p>Enugu State University of Science and Technology</p>
-    </div>
-</section>
+    <header id="intro">
+        <section class="profile-pics">
+          <img src="images/developer.jpg" alt="" class="profile" />
+        </section>
+        <section class="profile-details">
+          <h1>Ugwuanyi Ekene Love</h1>
+          <h3>Front-End Developer</h3>
+          <p>
+            Innovative Front End Developer with over 6 months of 
 
-<section class="container">
-    <div class="feature-container">
-      <div class="title">
-        <h4>University of Nigeria Secondary School Enugu Campus</h4>
-      </div>
-      <p class="date-time">2009</p>
-    </div>
-    <div class="work-list">
-      <p>Senior School Certificate</p>
-    </div>
-</section>
+experience
+            building and maintaining responsive websites. Proficient 
 
-<section class="container">
-    <div class="feature-container">
-      <div class="title">
-        <h4>Federal Airport Authority of Nigeria Primary School</h4>
-      </div>
-      <p class="date-time">2002</p>
-    </div>
-    <div class="work-list">
-      <p>First School Leaving Certificate</p>
-    </div>
-</section>
-</div>
+in HTML,
+            CSS, Javascript and twitter bootstrap. Passionate about 
 
+usability
+            and possesses working knowledge of jQuery, with over 4 
 
+months of
+            front end experience and passion for responsive website 
 
-<!-----
+design and a
+            firm believer in the mobile-first approach.
+          </p>
+        </section>
+      </header>
+      <article id="contact">
+        <ul class="left-col">
+          <li class="email icons">
+          Email : love2ekene@gmail.com
+            </li>
+          <li class="nationalty icons">
+          Nationality : Nigeria
+            </li>
+          <li class="github icons">
+          <a href="https://www.github.com/Hubnotch">github</a> 
+            </li>
+        </ul>
+        <ul class="col2">
+          <li class="phone icons">
+          Phone : +2347060748361
+      </li>
+          <li class="twitter icons">
+         <a href="https://www.twitter.com/hubnotch">twitter</a> 
+      </li>
+          <li class="linkedin icons">
+        <a href="https://www.linkedin.com/in/ekene-ugwuanyi-91579bb9?
 
-P O R T F O L I O
--->
-<section id="portfolio">
-  <h1>MY PORTFOLIO</h1>
-  <div class="row">
-    <div class="column">
-      <div class="content">
-        <img src="images/1.jpg" alt="Me with a red beret">
-        <h3>The Late Smile</h3>
-       <p>Lorem ipsum...</p> 
-      </div>
-    </div>
-  
-    <div class="column">
-      <div class="content">
-        <img src="images/2.jpg" alt="Me with a red beret">
-        <h3>The MEAN Stack</h3>
-       <p>Lorem ipsum...</p>
-      </div>
-    </>
-  </div>
-  
-    <div class="column">
-      <div class="content">
-        <img src="images/3.jpg" alt="Me with a red beret">
-        <h3>API's</h3>
-       <p>Lorem ipsum...</p>
-      </div>
-    </>
-  </div>
-  
-    <div class="column">
-      <div class="content">
-        <img src="images/4.jpg" alt="Me with a red beret">
-        <h3>React</h3>
-        <p>Lorem ipsum...</p>
-      </div>
-    </>
-  </div>
+lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details
 
-    <div class="column">
-      <div class="content">
-        <img src="images/5.jpg" alt="Me with a red beret">
-        <h3>HTML & CSS</h3>
-        <p>Lorem ipsum...</p>
-      </div>
-    </>
-  </div>
+%3BSefTDikHQEmVHbnALevjIw%3D%3D">linkedIn</a>
+      </li>
+        </ul>
+       
+     </article>
 
-    <div class="column">
-      <div class="content">
-        <img src="images/6.jpg" alt="Me with a red beret">
-        <h3>DEV OPS</h3>
-       <p>Lorem ipsum...</p>
-      </div>
-    </>
-  </div>
+      <article id="cvBody">
+        <section id="history">
+          <div class="title"><h2>Work Experience</h2>
+          <div class="first-exp">
+            <h3>Front-End Developer (intern), Pascal Arena</h3>
+            <p class="date">August 2016 – January 2017</p>
+            <p class="date">Tasks / Achievements</p>
+            <ul>
+              <li>Implementing websites, mobile applications, and 
 
-    <div class="column">
-      <div class="content">
-        <img src="images/developer.jpg" alt="Me with a red beret">
-        <h3>Full Stack</h3>
-       <p>Lorem ipsum...</p>
-      </div>
-    </>
-  </div>
-</section>
+landing pages from concept mockups</li>
+              <li>Collaborating with other team members</li>
+              <li>Collaborating with product team members to implement 
 
+new feature developments</li>
+              <li>Implementing HTML email templates and newsletters 
 
+for marketing campaigns</li>
+            </ul>
+          </div>
+          <div class="first-exp">
+            <h3>Front-End Developer (intern), HNGi7 2020</h3>
+            <p class="date">May 2020 – July 2020</p>
+            <p class="date">Tasks / Achievements</p>
+            <ul>
+              <li>Leveraging responsive web frameworks to complete 
+
+deliverables ahead of schedule</li>
+              <li>Collaborating with other team members</li>
+              <li>Performing bug fixes and code review</li>
+              <li>Buiding stable and maintainable codebases</li>
+            </ul>
+          </div></div>
+          <div class="title"><h2>Education</h2>
+            <div class="first-exp">
+              <h3>Bacheors Degree in Mechanical Engineering</h3>
+              <p>Enugu State University of Science and Technology</p>
+              <p class="date">2017</p>
+          </div>
+
+        </section>
+
+        <section id="skills">
+          <div class="title"><h2>Skills</h2></div>
+          <ul>
+            <li>HTML, CSS, Javascript</li>
+            <li>Twitter bootstrap</li>
+            <li>jQuery, SCSS</li>
+            <li>Git / github</li>
+            <li>Innovative Problem solving</li>
+            <li>Attention to details</li>
+          </ul>
+        </section>
+      </article>
+    </section>
     <script src="scripts/app.js"></script>
   </body>
 </html>
